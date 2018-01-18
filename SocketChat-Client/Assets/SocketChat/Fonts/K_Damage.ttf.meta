@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b714e4e35b49ec244962514e8cbdd0b1
+timeCreated: 1516260834
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: YDI2002
+  fontNames:
+  - YDI2002
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
