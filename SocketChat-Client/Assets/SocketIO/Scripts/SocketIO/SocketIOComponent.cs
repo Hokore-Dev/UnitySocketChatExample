@@ -42,22 +42,31 @@ namespace SocketIO
 	{
 		#region Public Properties
 
-		public string url = "ws://127.0.0.1:4567/socket.io/?EIO=4&transport=websocket";
+        public enum EDeploy
+        {
+            Dev,
+            Service,
+        }
+
+        public EDeploy deploy    = EDeploy.Dev;
+        public string devUrl     = "ws://127.0.0.1:4567/socket.io/?EIO=4&transport=websocket";
+        public string serviceUrl = "ws://127.0.0.1:4567/socket.io/?EIO=4&transport=websocket";
+
 		public bool autoConnect = true;
-		public int reconnectDelay = 5;
-		public float ackExpirationTime = 1800f;
-		public float pingInterval = 25f;
-		public float pingTimeout = 60f;
 
 		public WebSocket socket { get { return ws; } }
 		public string sid { get; set; }
 		public bool IsConnected { get { return connected; } }
+        #endregion
 
-		#endregion
+        #region Private Properties
 
-		#region Private Properties
+        private int reconnectDelay = 5;
+        private float ackExpirationTime = 1800f;
+        private float pingInterval = 25f;
+        private float pingTimeout = 60f;
 
-		private volatile bool connected;
+        private volatile bool connected;
 		private volatile bool thPinging;
 		private volatile bool thPong;
 		private volatile bool wsConnected;
@@ -80,6 +89,18 @@ namespace SocketIO
 
 		private object ackQueueLock;
 		private Queue<Packet> ackQueue;
+
+        private string url
+        {
+            get
+            {
+                if (deploy == EDeploy.Service)
+                {
+                    return serviceUrl;
+                }
+                return devUrl;
+            }
+        }
 
 		#endregion
 

@@ -59,6 +59,7 @@
       "resolved": "https://registry.npmjs.org/callsite/-/callsite-1.0.0.tgz",
       "version": "1.0.0"
     },
+    "chalk": "^2.3.0",
     "component-bind": {
       "integrity": "sha1-AMYIq33Nk4l8AAllGx06jh5zu9E=",
       "resolved": "https://registry.npmjs.org/component-bind/-/component-bind-1.0.0.tgz",

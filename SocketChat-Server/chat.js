@@ -1,6 +1,7 @@
 var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
+var log = require('./lib/log.js');
 
 io.attach(3000);
 
@@ -23,7 +24,7 @@ io.on('connection', function(socket){
     */
     socket.on(USER_CONNECT, function (data) {
         currentUser.name = data.name;
-        console.log('[' + data.name + '] connect chat Server');
+        log('start','[' + data.name + '] connect chat Server');
         allUserList.push(currentUser.name);
 
         // 현재 유저에게 현재 접속중인 유저 정보를 넘김
@@ -33,7 +34,7 @@ io.on('connection', function(socket){
                 name: allUserList[i]
             };
             socket.emit(OTHER_USER_CONNECT, playerData);
-            console.log(currentUser.name + ' emit: other_user_connect: ' + JSON.stringify(playerData));
+            log('info', currentUser.name + ' emit: other_user_connect: ' + JSON.stringify(playerData));
         }
 
         // 다른 유저들에게 플레이어가 접속했다는 것을 알려줌
@@ -44,7 +45,7 @@ io.on('connection', function(socket){
     *   유저가 메시지를 보냄
     */
     socket.on(SEND_MESSAGE, function (data) {
-        console.log(currentUser.name + ' emit message: ' + data.message);
+        log('message', currentUser.name + ' emit message: ' + data.message);
         socket.emit(RECEIVE_MESSAGE, { name: data.name, message: data.message });
         socket.broadcast.emit(RECEIVE_MESSAGE, { name: data.name, message: data.message });
     });
@@ -53,7 +54,7 @@ io.on('connection', function(socket){
     *   유저가 접속을 끊음
     */
     socket.on(DISCONNECT, function () {
-        console.log(currentUser.name + ' recv: disconnect');
+        log('stop', currentUser.name + ' recv: disconnect');
         socket.broadcast.emit(OTHER_USER_DISCONNECT, currentUser);
         for (var i = 0 ; i < allUserList.length;i++)
         {
@@ -70,4 +71,4 @@ app.get('/', function (req, res) {
     res.send(JSON.stringify(allUserList));
 })
 
-console.log("server started");
+log('start'," ===== Server Started ======");
