@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SocketChat/Scene/MainScene.unity
+- path: Assets/SocketChat/Scene/RoomScene.unity
   isLoaded: 1
   isActive: 1

@@ -232,7 +232,14 @@ namespace SocketIO
 			EmitMessage(-1, string.Format("[\"{0}\",{1}]", ev, data));
 		}
 
-		public void Emit(string ev, JSONObject data, Action<JSONObject> action)
+        public void Emit(string ev, string key, string data)
+        {
+            JSONObject json = new JSONObject();
+            json.AddField(key, data);
+            Emit(ev, json);
+        }
+
+        public void Emit(string ev, JSONObject data, Action<JSONObject> action)
 		{
 			EmitMessage(++packetId, string.Format("[\"{0}\",{1}]", ev, data));
 			ackList.Add(new Ack(packetId, action));

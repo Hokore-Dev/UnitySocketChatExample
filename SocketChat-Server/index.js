@@ -25,7 +25,7 @@ io.on('connection', function(socket)
             var playerConnected = {
                 name:clients[i].name,
                 position:clients[i].position,
-                rotation:clients[i].position,
+                rotation:clients[i].rotation,
                 health:clients[i].health
             };
             // 플레이어가 접속했을때 다른 플레이어들에게 알려줌
