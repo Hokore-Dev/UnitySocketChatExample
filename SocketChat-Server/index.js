@@ -28,7 +28,8 @@ io.on('connection', function(socket)
                 rotation:clients[i].rotation,
                 health:clients[i].health
             };
-            // ÇÃ·¹ÀÌ¾î°¡ Á¢¼ÓÇßÀ»¶§ ´Ù¸¥ ÇÃ·¹ÀÌ¾îµé¿¡°Ô ¾Ë·ÁÁÜ
+
+            // í”Œë ˆì´ì–´ì—ê²Œ ë‹¤ë¥¸ ìœ ì €ì˜ ì •ë³´ë¥¼ ë„˜ê²¨ì¤Œgit
             socket.emit('other player connected', playerConnected);
             console.log(currentPlayer.name + ' emit: other player connected: ' + JSON.stringify(playerConnected));
         }
@@ -64,7 +65,7 @@ io.on('connection', function(socket)
             enemies: enemies
         };
 
-        // ÇÃ·¹ÀÌ¾î¿¡°Ô ÀûÀÇ Á¤º¸¸¦ º¸³¿
+        // ï¿½Ã·ï¿½ï¿½Ì¾î¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         console.log(currentPlayer.name + ' emit: enemies: ' + JSON.stringify(enemiesResponse));
         socket.emit('enemies', enemiesResponse);
         var randomSpawnPoint = playerSpawnPoints[Math.floor(Math.random() * playerSpawnPoints.length)];
@@ -76,11 +77,11 @@ io.on('connection', function(socket)
         };
         clients.push(currentPlayer);
 
-        // µé¾î¿Ô´Ù°í ÇÃ·¹ÀÌ¾î¿¡°Ô ¾Ë¸²
+        // ï¿½ï¿½ï¿½Ô´Ù°ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾î¿¡ï¿½ï¿½ ï¿½Ë¸ï¿½
         console.log(currentPlayer.name + ' emit: play: ' + JSON.stringify(currentPlayer));
         socket.emit('play', currentPlayer);
 
-        // ´Ù¸¥ ÇÃ·¹ÀÌ¾î¿¡°Ô À¯ÀúÀÇ Á¤º¸¸¦ ¾Ë¸²
+        // ï¿½Ù¸ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾î¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë¸ï¿½
         socket.broadcast.emit('other player connected', currentPlayer);
     });
 
@@ -111,7 +112,7 @@ io.on('connection', function(socket)
         console.log(currentPlayer.name + ' recv: health: ' + JSON.stringify(data));
         if (data.from === currentPlayer.name)
         {
-            // ÀÚ½ÅÀÌ ½ğ ÃÑ¾ËÀÌ¸é µ¥¹ÌÁö´Â 0
+            // ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ñ¾ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 0
             var indexDamaged = 0;
             if (!data.isEnemy)
             {

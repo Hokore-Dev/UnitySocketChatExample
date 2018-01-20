@@ -11,31 +11,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RoomScene.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RoomScene.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+            <state relative-caret-position="544">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding>
-                <marker date="1516455737000" expanded="true" signature="6:100" ph="..." />
-                <marker date="1516455737000" expanded="true" signature="140:3471" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="392:1752" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="522:851" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="581:663" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="952:1298" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="1163:1249" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="1402:1744" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="1612:1695" ph="{...}" />
-                <marker date="1516455737000" expanded="false" signature="1788:2114" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="1912:2066" ph="{...}" />
-                <marker date="1516455737000" expanded="false" signature="2154:2671" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="2299:2622" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="2377:2494" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="2511:2583" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="2703:3008" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="3018:3070" ph="/// 한글도 물론 된다구! ... " />
-                <marker date="1516455737000" expanded="true" signature="3096:3469" ph="{...}" />
-                <marker date="1516455737000" expanded="true" signature="3148:3463" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="6:100" ph="..." />
+                <marker date="1516456142000" expanded="true" signature="140:3414" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="392:1752" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="522:851" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="581:663" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="952:1298" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="1163:1249" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="1402:1744" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="1612:1695" ph="{...}" />
+                <marker date="1516456142000" expanded="false" signature="1788:2114" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="1912:2066" ph="{...}" />
+                <marker date="1516456142000" expanded="false" signature="2154:2671" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="2299:2622" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="2377:2494" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="2511:2583" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="2703:3008" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="3039:3412" ph="{...}" />
+                <marker date="1516456142000" expanded="true" signature="3091:3406" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainScene.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainScene.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="284">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
                 <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
@@ -101,8 +100,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs" />
         <option value="$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs" />
       </list>
     </option>
   </component>
@@ -112,9 +111,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
-    <option name="y" value="151" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="812" />
+    <option name="y" value="115" />
     <option name="width" value="1580" />
     <option name="height" value="1130" />
   </component>
@@ -234,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516455553415</updated>
-      <workItem from="1516455557091" duration="531000" />
+      <workItem from="1516455557091" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="531000" />
+    <option name="totallyTimeSpent" value="665000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,7 +250,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="151" width="1580" height="1130" extended-state="0" />
+    <frame x="812" y="115" width="1580" height="1130" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -318,38 +317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
-          <folding>
-            <marker date="1516455737000" expanded="true" signature="6:100" ph="..." />
-            <marker date="1516455737000" expanded="true" signature="140:3471" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="392:1752" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="522:851" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="581:663" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="952:1298" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="1163:1249" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="1402:1744" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="1612:1695" ph="{...}" />
-            <marker date="1516455737000" expanded="false" signature="1788:2114" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="1912:2066" ph="{...}" />
-            <marker date="1516455737000" expanded="false" signature="2154:2671" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="2299:2622" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="2377:2494" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="2511:2583" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="2703:3008" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="3018:3070" ph="/// 한글도 물론 된다구! ... " />
-            <marker date="1516455737000" expanded="true" signature="3096:3469" ph="{...}" />
-            <marker date="1516455737000" expanded="true" signature="3148:3463" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="284">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
             <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
@@ -360,6 +331,33 @@
             <marker date="1516451735000" expanded="true" signature="1031:1358" ph="{...}" />
             <marker date="1516451735000" expanded="true" signature="1424:1887" ph="{...}" />
             <marker date="1516451735000" expanded="true" signature="1542:1582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <marker date="1516456142000" expanded="true" signature="6:100" ph="..." />
+            <marker date="1516456142000" expanded="true" signature="140:3414" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="392:1752" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="522:851" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="581:663" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="952:1298" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="1163:1249" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="1402:1744" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="1612:1695" ph="{...}" />
+            <marker date="1516456142000" expanded="false" signature="1788:2114" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="1912:2066" ph="{...}" />
+            <marker date="1516456142000" expanded="false" signature="2154:2671" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="2299:2622" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="2377:2494" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="2511:2583" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="2703:3008" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="3039:3412" ph="{...}" />
+            <marker date="1516456142000" expanded="true" signature="3091:3406" ph="{...}" />
           </folding>
         </state>
       </provider>
