@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="666f53a1-a4b2-4e2b-b8b3-ff9332b113df" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RoomScene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+              <folding>
+                <marker date="1516455737000" expanded="true" signature="6:100" ph="..." />
+                <marker date="1516455737000" expanded="true" signature="140:3471" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="392:1752" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="522:851" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="581:663" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="952:1298" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="1163:1249" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="1402:1744" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="1612:1695" ph="{...}" />
+                <marker date="1516455737000" expanded="false" signature="1788:2114" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="1912:2066" ph="{...}" />
+                <marker date="1516455737000" expanded="false" signature="2154:2671" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="2299:2622" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="2377:2494" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="2511:2583" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="2703:3008" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="3018:3070" ph="/// 한글도 물론 된다구! ... " />
+                <marker date="1516455737000" expanded="true" signature="3096:3469" ph="{...}" />
+                <marker date="1516455737000" expanded="true" signature="3148:3463" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/Server/NetworkManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1516451735000" expanded="false" signature="6:68" ph="..." />
+                <marker date="1516451735000" expanded="true" signature="155:229" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="173:223" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="468:812" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="747:806" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="862:1156" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="960:1150" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1162:1291" ph="/// 소켓 이벤트 콜백 등록 ... " />
+                <marker date="1516451735000" expanded="true" signature="1362:1623" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1418:1533" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1546:1617" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1629:1762" ph="/// 등록된 이벤트 모든 콜백 삭제 ... " />
+                <marker date="1516451735000" expanded="true" signature="1812:1939" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1868:1933" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1945:2078" ph="/// 등록된 이벤트 특정 콜백 삭제 ... " />
+                <marker date="1516451735000" expanded="true" signature="2152:2329" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="2208:2323" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="2335:2385" ph="/// 모든 이벤트 삭제 ... " />
+                <marker date="1516451735000" expanded="true" signature="2418:2465" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainScene.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
+                <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="310:1398" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="403:544" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="645:1390" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="857:1376" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1031:1358" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1424:1887" ph="{...}" />
+                <marker date="1516451735000" expanded="true" signature="1542:1582" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SocketChat/Script/Server/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="762" />
+    <option name="y" value="151" />
+    <option name="width" value="1580" />
+    <option name="height" value="1130" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SocketChat" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SocketChat" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SocketChat" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Script" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Server" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SocketChat-Client (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SocketIO" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="2366" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="666f53a1-a4b2-4e2b-b8b3-ff9332b113df" name="Default" comment="" />
+      <created>1516455553415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516455553415</updated>
+      <workItem from="1516455557091" duration="531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="531000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="762" y="151" width="1580" height="1130" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20510396" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19113924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22589792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/Server/NetworkManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1516451735000" expanded="false" signature="6:68" ph="..." />
+            <marker date="1516451735000" expanded="true" signature="155:229" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="173:223" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="468:812" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="747:806" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="862:1156" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="960:1150" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1162:1291" ph="/// 소켓 이벤트 콜백 등록 ... " />
+            <marker date="1516451735000" expanded="true" signature="1362:1623" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1418:1533" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1546:1617" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1629:1762" ph="/// 등록된 이벤트 모든 콜백 삭제 ... " />
+            <marker date="1516451735000" expanded="true" signature="1812:1939" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1868:1933" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1945:2078" ph="/// 등록된 이벤트 특정 콜백 삭제 ... " />
+            <marker date="1516451735000" expanded="true" signature="2152:2329" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="2208:2323" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="2335:2385" ph="/// 모든 이벤트 삭제 ... " />
+            <marker date="1516451735000" expanded="true" signature="2418:2465" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
+          <folding>
+            <marker date="1516455737000" expanded="true" signature="6:100" ph="..." />
+            <marker date="1516455737000" expanded="true" signature="140:3471" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="392:1752" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="522:851" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="581:663" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="952:1298" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="1163:1249" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="1402:1744" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="1612:1695" ph="{...}" />
+            <marker date="1516455737000" expanded="false" signature="1788:2114" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="1912:2066" ph="{...}" />
+            <marker date="1516455737000" expanded="false" signature="2154:2671" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="2299:2622" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="2377:2494" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="2511:2583" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="2703:3008" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="3018:3070" ph="/// 한글도 물론 된다구! ... " />
+            <marker date="1516455737000" expanded="true" signature="3096:3469" ph="{...}" />
+            <marker date="1516455737000" expanded="true" signature="3148:3463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="310:1398" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="403:544" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="645:1390" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="857:1376" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1031:1358" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1424:1887" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1542:1582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

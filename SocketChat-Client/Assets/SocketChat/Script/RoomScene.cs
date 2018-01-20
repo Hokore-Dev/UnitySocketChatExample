@@ -70,7 +70,7 @@ public class RoomScene : MonoBehaviour
         }
         _txtChatBox.text = sb.ToString();
     }
-
+    
     private void RefreshUserList()
     {
         System.Text.StringBuilder sb = new System.Text.StringBuilder();
@@ -97,7 +97,7 @@ public class RoomScene : MonoBehaviour
         ServerModel.Message message = new ServerModel.Message() { name = GeneralDataManager.it.currentUser.name, message = txtMsg };
         NetworkManager.it.Emit(ServerMethod.SEND_MESSAGE, message.ToJSON());
     }
-
+    
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
