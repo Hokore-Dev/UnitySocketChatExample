@@ -11,10 +11,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RoomScene.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoomScene.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="453">
               <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding>
                 <marker date="1516456142000" expanded="true" signature="6:100" ph="..." />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NetworkManager.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NetworkManager.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/Server/NetworkManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="444">
+              <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <marker date="1516451735000" expanded="false" signature="6:68" ph="..." />
                 <marker date="1516451735000" expanded="true" signature="155:229" ph="{...}" />
@@ -73,8 +73,8 @@
       <file leaf-file-name="MainScene.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
                 <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
@@ -111,7 +111,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="812" />
     <option name="y" value="115" />
     <option name="width" value="1580" />
@@ -204,6 +204,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="SearchEverywhereHistoryKey" value="MainScene&#9;FILE&#9;file:///Volumes/Partition Drive/SocketChat/SocketChat-Client/Assets/SocketChat/Script/MainScene.cs" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516455553415</updated>
-      <workItem from="1516455557091" duration="665000" />
+      <workItem from="1516455557091" duration="1128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="665000" />
+    <option name="totallyTimeSpent" value="1128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +251,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="812" y="115" width="1580" height="1130" extended-state="1" />
+    <frame x="812" y="115" width="1580" height="1130" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -289,55 +290,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/Server/NetworkManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1516451735000" expanded="false" signature="6:68" ph="..." />
-            <marker date="1516451735000" expanded="true" signature="155:229" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="173:223" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="468:812" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="747:806" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="862:1156" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="960:1150" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1162:1291" ph="/// 소켓 이벤트 콜백 등록 ... " />
-            <marker date="1516451735000" expanded="true" signature="1362:1623" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1418:1533" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1546:1617" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1629:1762" ph="/// 등록된 이벤트 모든 콜백 삭제 ... " />
-            <marker date="1516451735000" expanded="true" signature="1812:1939" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1868:1933" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1945:2078" ph="/// 등록된 이벤트 특정 콜백 삭제 ... " />
-            <marker date="1516451735000" expanded="true" signature="2152:2329" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="2208:2323" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="2335:2385" ph="/// 모든 이벤트 삭제 ... " />
-            <marker date="1516451735000" expanded="true" signature="2418:2465" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
-            <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="310:1398" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="403:544" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="645:1390" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="857:1376" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1031:1358" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1424:1887" ph="{...}" />
-            <marker date="1516451735000" expanded="true" signature="1542:1582" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/RoomScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="453">
           <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding>
             <marker date="1516456142000" expanded="true" signature="6:100" ph="..." />
@@ -358,6 +313,52 @@
             <marker date="1516456142000" expanded="true" signature="2703:3008" ph="{...}" />
             <marker date="1516456142000" expanded="true" signature="3039:3412" ph="{...}" />
             <marker date="1516456142000" expanded="true" signature="3091:3406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/MainScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1516451735000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1516451735000" expanded="true" signature="140:1889" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="310:1398" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="403:544" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="645:1390" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="857:1376" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1031:1358" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1424:1887" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1542:1582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SocketChat/Script/Server/NetworkManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <marker date="1516451735000" expanded="false" signature="6:68" ph="..." />
+            <marker date="1516451735000" expanded="true" signature="155:229" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="173:223" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="468:812" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="747:806" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="862:1156" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="960:1150" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1162:1291" ph="/// 소켓 이벤트 콜백 등록 ... " />
+            <marker date="1516451735000" expanded="true" signature="1362:1623" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1418:1533" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1546:1617" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1629:1762" ph="/// 등록된 이벤트 모든 콜백 삭제 ... " />
+            <marker date="1516451735000" expanded="true" signature="1812:1939" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1868:1933" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="1945:2078" ph="/// 등록된 이벤트 특정 콜백 삭제 ... " />
+            <marker date="1516451735000" expanded="true" signature="2152:2329" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="2208:2323" ph="{...}" />
+            <marker date="1516451735000" expanded="true" signature="2335:2385" ph="/// 모든 이벤트 삭제 ... " />
+            <marker date="1516451735000" expanded="true" signature="2418:2465" ph="{...}" />
           </folding>
         </state>
       </provider>
